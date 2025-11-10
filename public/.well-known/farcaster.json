@@ -1,8 +1,8 @@
 {
   "accountAssociation": {
     "header": "eyJmaWQiOjExMTIzMTksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg0MjBiMzgzZmFBN0ZGNTFFODNCYjUzZkJERTVkYUMzZjBkMWJhOUIyIn0",
-    "payload": "eyJkb21haW4iOiJuZnQtamFkZS1iZXRhLnZlcmNlbC5hcHAifQ",
-    "signature": "k7NQcVvbTwVslqSAEoC8G2YKbb2gwLKD0+W9Pv9wkIQY+iF4MUAIZKWhHsRcz6OqEAov6xrnJpVYR56wXjrs2Rs="
+    "payload": "eyJkb21haW4iOiJidWlsZC1zaWdtYS1henVyZS52ZXJjZWwuYXBwIn0",
+    "signature": "GT+qxwhVPEnIMGJf2Vhnn4UaLRlUcTw8IasrgJ0OLXYkZVaaFumcKqlwjd8HhUwMpbup4xPfXk3NYBJzrinYxRw="
   },
   "miniapp": {
     "name": "Cubey",
