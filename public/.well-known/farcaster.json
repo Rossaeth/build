@@ -1,0 +1,14 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjExMTIzMTksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg0MjBiMzgzZmFBN0ZGNTFFODNCYjUzZkJERTVkYUMzZjBkMWJhOUIyIn0",
+    "payload": "eyJkb21haW4iOiJuZnQtamFkZS1iZXRhLnZlcmNlbC5hcHAifQ",
+    "signature": "k7NQcVvbTwVslqSAEoC8G2YKbb2gwLKD0+W9Pv9wkIQY+iF4MUAIZKWhHsRcz6OqEAov6xrnJpVYR56wXjrs2Rs="
+  },
+  "miniapp": {
+    "name": "Cubey",
+    "version": "1",
+    "homeUrl": "https://build-sigma-azure.vercel.app",
+    "ownerAddress": "0xa0A5Ba2DB15Db370E749fAF65051b356F06a9eF9",
+    "tags": ["marketing", "ads", "quickstart", "waitlist"]
+  }
+}
