@@ -7,30 +7,27 @@ const ROOT_URL =
  *
  * @see {@link https://miniapps.farcaster.xyz/docs/guides/publishing}
  */
+// Minikit Config
 export const minikitConfig = {
-  accountAssociation: {
-    header: "",
-    payload: "",
-    signature: ""
-  },
   miniapp: {
     version: "1",
-    name: "Cubey", 
-    subtitle: "Your AI Ad Companion", 
-    description: "Ads",
-    screenshotUrls: [`${ROOT_URL}/screenshot-portrait.png`],
-    iconUrl: `${ROOT_URL}/blue-icon.png`,
-    splashImageUrl: `${ROOT_URL}/blue-hero.png`,
-    splashBackgroundColor: "#000000",
-    homeUrl: ROOT_URL,
-    webhookUrl: `${ROOT_URL}/api/webhook`,
-    primaryCategory: "social",
-    tags: ["marketing", "ads", "quickstart", "waitlist"],
-    heroImageUrl: `${ROOT_URL}/blue-hero.png`, 
-    tagline: "",
-    ogTitle: "",
-    ogDescription: "",
-    ogImageUrl: `${ROOT_URL}/blue-hero.png`,
+    name: "Cubey",
+    iconUrl: "https://build-sigma-azure.vercel.app/icon.png",
+    homeUrl: "https://build-sigma-azure.vercel.app",
+    imageUrl: "https://build-sigma-azure.vercel.app/image.png",
+    splashImageUrl: "https://build-sigma-azure.vercel.app/splash.png",
+    splashBackgroundColor: "#677777",
+    webhookUrl: "https://build-sigma-azure.vercel.app/api/webhook",
+    subtitle: "rossa",
+    description: "rossa",
+    primaryCategory: "permainan",
+    heroImageUrl: "https://images.unsplash.com/photo-1625137395544-32f0f687b408" //<img src={minikitConfig.miniapp.heroImageUrl} alt="Hero Image" />
+
   },
-} as const;
+  accountAssociation: {
+    header: "eyJmaWQiOjExMTIzMTksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg0MjBiMzgzZmFBN0ZGNTFFODNCYjUzZkJERTVkYUMzZjBkMWJhOUIyIn0",
+    payload: "eyJkb21haW4iOiJidWlsZC1zaWdtYS1henVyZS52ZXJjZWwuYXBwIn0",
+    signature: "EQabcLp4jA9A+7ZKL+XazfZMpZT5abgBbRQ7ewEk6EMI+rk0VS60ychOOS84PlMOLloDDvibBOgeXU13XAWU3hw="
+  }
+};
 
